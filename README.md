@@ -35,7 +35,7 @@ main字典块:
     template_path     对应模板文件所在的文件目录
     mode              操作模式
         develop       开发模式
-            ctx       对应模式的内容组，例如内容为["ctx_base","ctx_develop"]的时候，填充模板的内容就为ctx_base字典+ctx_develop字典
+            ctx       对应模式的内容组，例如内容为["ctx_base","ctx_develop"]的时候，填充模板的内容就为ctx_base字典与ctx_develop字典
             path      对应配置文件应该写入的位置。
         work          工作模式 
     ……              (可以自定个各种模式)
