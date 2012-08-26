@@ -27,16 +27,16 @@ Django 1.4(使用Django中的 template组件)
 
 运行后会生成settings.ctx 文件，为填充模板的内容文件json格式。
 
-可以按照[settings.ctx.example](https://github.com/silegon/onf/blob/master/settings.ctx.example)的式样填充自己所需的内容。在添加的参数有几点需要注意的地方。
+可以按照[settings.ctx.example](https://github.com/silegon/onf/blob/master/settings.ctx.example)的式样填充自己所需的内容。在添加的参数时有几点需要注意的地方。
 
-main字典块:
+main字典块参数解释:
 
     template_filename 该内容文件对应的模板文件名
     template_path     对应模板文件所在的文件目录
     mode              操作模式
         develop       开发模式
             ctx       对应模式的内容组，例如内容为["ctx_base","ctx_develop"]的时候，填充模板的内容就为ctx_base字典与ctx_develop字典
-            path      对应配置文件应该写入的位置。
+            path      对应配置文件应该写入的位置
         work          工作模式 
     ……              (可以自定个各种模式)
     ctx_base          基础的内容块
