@@ -22,10 +22,13 @@ Django 1.4(使用Django中的 template组件)
     11 )
     ……
 
-做完后将settings.py文件重命名为文件。模板文件都以template为后缀。
+做完后将settings.py文件重命名为文件[settings.py.template](https://github.com/silegon/onf/blob/master/settings.py.template)。模板文件都以template为后缀。
+
 运行$python generate_ctx.py settings.py.template
+
 运行后会生成settings.ctx 文件，为填充模板的内容文件json格式。
-可以按照settings.ctx.example的式样填充自己所需的内容。在添加的参数有几点需要注意的地方。
+
+可以按照[settings.ctx.example](https://github.com/silegon/onf/blob/master/settings.ctx.example)的式样填充自己所需的内容。在添加的参数有几点需要注意的地方。
 
 main字典块:
 
