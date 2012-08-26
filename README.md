@@ -43,5 +43,5 @@ main字典块:
     ctx_develop       develop模式的内容块
     ……              (可以继续添加各个内容快)
 
-以的准备完成后运行$python generate_conf.py settings.py.ctx develop 就可以将所需的配置文件生成到指定地方了。
+运行$python generate_conf.py settings.py.ctx develop 就可以将所需的配置文件生成到指定地方了。
 
