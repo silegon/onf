@@ -1,0 +1,46 @@
+{
+  "ctx_base": {
+    "database_engine": "mysql", 
+    "database_name": "test", 
+    "database_password": "test", 
+    "database_user": "test", 
+    "disqus_forum_shortname": "test", 
+    "disqus_user_api_key": "test", 
+    "language_code": "test", 
+    "site_url": "test", 
+    "template_string_if_invalid": "test", 
+    "time_zone": "test", 
+    "user_email": "test", 
+    "username": "test"
+  }, 
+  "ctx_develop": {
+    "debug_statu": "True", 
+    "template_debug_statu": "True" 
+  }, 
+  "ctx_work": {
+    "debug_statu": "False", 
+    "template_debug_statu": "False" 
+  }, 
+  "main": {
+    "mode": {
+      "develop": {
+        "ctx": [
+          "ctx_base", 
+          "ctx_develop"
+        ], 
+        "filename": "settings.py",
+        "path": "/home/silegon"
+      }, 
+      "work": {
+        "ctx": [
+          "ctx_base", 
+          "ctx_work"
+        ], 
+        "filename": "settings.py",
+        "path": "/home/silegon"
+      }
+    }, 
+    "template_filename": "settings.py.template", 
+    "template_path": "/home/silegon/temp/config"
+  }
+}
