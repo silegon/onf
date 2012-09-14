@@ -46,8 +46,8 @@ if __name__ == '__main__':
         print 'Done!'
     else:
         print """
-        Useage:python generate_conf.py {template_name} {mode}
-        Example:python generate_conf.py settings.py.template develop
+        Useage:python generate_conf.py {ctx_name} {mode}
+        Example:python generate_conf.py settings.ctx develop
 
         more info:https://github.com/silegon/onf
         """
